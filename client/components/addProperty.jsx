@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Row, Button, Form, FormGroup, Label, Input, } from 'reactstrap';
 import {Link} from 'react-router-dom';
-import AddUnit from './addUnit';
 
 export default class AddProperty extends React.Component {
     constructor(props){
@@ -71,8 +70,6 @@ export default class AddProperty extends React.Component {
     }
    
     addProperty(e){
-      // e.preventDefault();
-
         let data = {
             property_name: this.state.propertyName,
             street_address: this.state.streetAddress,

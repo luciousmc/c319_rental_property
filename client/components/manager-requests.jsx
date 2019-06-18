@@ -1,7 +1,6 @@
 import React from 'react';
 import {Row, Container, Button, Col, Nav} from 'reactstrap';
 import ManagerListItem from './manager-request-item';
-import {Link} from 'react-router-dom';
 
 export default class ManagerReview extends React.Component{
     constructor(props){
